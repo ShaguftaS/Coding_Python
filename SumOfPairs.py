@@ -1,7 +1,7 @@
-def chkpair(A, size, x):
+def chkpair(a, size, x):
     for i in range(0, size -1) :
         for j in range(i+1, size) :
-            if (A[i] + A[j] == x) :
+            if (a[i] + a[j] == x) :
                 return 1
 
     return 0
