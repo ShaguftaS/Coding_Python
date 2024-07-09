@@ -6,12 +6,12 @@ def chkPair(A, size, x):
 
     return 0
 
-if __name__ == "__main__":
+if __name__ == "__main__" :
     A = [0, -1, 2, -3, 1]
     x = -2
     size = len(A)
 
-    if (chkPair(A, size, x)):
+    if (chkPair(A, size, x)) :
         print("Yes")
 
     else:
