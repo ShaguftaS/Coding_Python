@@ -1,4 +1,4 @@
-def chkPair(A, size, x):
+def chkpair(A, size, x):
     for i in range(0, size -1) :
         for j in range(i+1, size) :
             if (A[i] + A[j] == x) :
@@ -11,7 +11,7 @@ if __name__ == "__main__" :
     x = -2
     size = len(A)
 
-    if (chkPair(A, size, x)) :
+    if (chkpair(A, size, x)) :
         print("Yes")
 
     else:
