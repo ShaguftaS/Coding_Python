@@ -8,7 +8,7 @@ def chkpair(a, size, x):
 
 
 if __name__ == "__main__":
-    A = [0, -1, 2, -3, 1]
+    A = [ 0, -1, 2, -3, 1]
     x = -2
     size = len(A)
 
