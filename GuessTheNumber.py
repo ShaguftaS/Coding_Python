@@ -4,7 +4,7 @@ stack = ['a', 'b', 'c']
 # element in the stack
 
 print('Initial stack')
-print(stack)
+print( stack )
 
 # pop() function to pop
 # element from stack in
